@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Petshops | Panel Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="ambient ambient-a"></div>
+        <div class="ambient ambient-b"></div>
+        <div class="ambient ambient-c"></div>
+
+        <header class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">ScrapingWork Dashboard</p>
+                <h1>{{ active_search|title }} encontrados en Google Maps</h1>
+                <p class="hero-text">Un panel mas claro para revisar resultados, detectar datos faltantes y exportar el listado a Excel sin salir del navegador.</p>
+                <form method="post" action="{{ url_for('scrape') }}" class="extract-form">
+                    <label for="search_term" class="extract-label">Nueva extraccion</label>
+                    <div class="extract-row">
+                        <input id="search_term" name="search_term" type="search" value="{{ active_search }}" placeholder="Escribe una categoria: petshop, veterinaria, farmacia, restaurante">
+                        <button type="submit" class="extract-button">Extraer ahora</button>
+                    </div>
+                    <small>Usa cualquier categoria de Google Maps y se guardara el nuevo resultado en este panel.</small>
+                </form>
+                <div class="hero-badges">
+                    <a href="#busqueda-local">Busqueda local</a>
+                    <a href="{{ url_for('export_excel', q=query) }}">Exportacion XLSX</a>
+                    <a href="#resultados-scraper">Resultados del scraper</a>
+                </div>
+            </div>
+
+            <div class="hero-panel">
+                <div class="stat-card">
+                    <span class="stat-label">Total visible</span>
+                    <strong>{{ stats.filtered }}</strong>
+                    <small>de {{ stats.total }} disponibles</small>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Con telefono</span>
+                    <strong>{{ stats.with_phone }}</strong>
+                    <small>listos para contacto</small>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Con direccion</span>
+                    <strong>{{ stats.with_address }}</strong>
+                    <small>listos para ubicar</small>
+                </div>
+                <div class="stat-card accent-card">
+                    <span class="stat-label">Completos</span>
+                    <strong>{{ stats.with_both }}</strong>
+                    <small>con direccion y telefono</small>
+                </div>
+            </div>
+        </header>
+
+        {% if status %}
+        <section class="status-banner">{{ status }}</section>
+        {% endif %}
+
+        <section class="toolbar" id="busqueda-local">
+            <form method="get" action="/" class="search-form">
+                <input type="search" name="q" value="{{ query }}" placeholder="Buscar por nombre, direccion, telefono o coordenadas">
+                <button type="submit">Buscar</button>
+                <a class="ghost-button" href="{{ url_for('index') }}">Limpiar</a>
+            </form>
+            <div class="actions">
+                <a class="primary-link" href="{{ url_for('export_excel', q=query) }}">Exportar a Excel</a>
+            </div>
+        </section>
+
+        <section class="meta">
+            <span>Ultima referencia visible: {{ last_updated or "Sin datos" }}</span>
+            <span>{{ results|length }} tarjetas en pantalla</span>
+        </section>
+
+        <section class="table-card" id="resultados-scraper">
+            <div class="results-grid">
+                {% for row in results %}
+                <article class="result-card">
+                    <div class="result-top">
+                        <div>
+                            <p class="card-kicker">Petshop</p>
+                            <h2>{{ row.nombre }}</h2>
+                        </div>
+                        <div class="status-stack">
+                            <span class="status-pill {{ 'ok' if row.direccion and row.direccion != 'No disponible' else 'missing' }}">
+                                {{ 'Direccion lista' if row.direccion and row.direccion != 'No disponible' else 'Sin direccion' }}
+                            </span>
+                            <span class="status-pill {{ 'ok' if row.telefono and row.telefono != 'No disponible' else 'missing' }}">
+                                {{ 'Telefono listo' if row.telefono and row.telefono != 'No disponible' else 'Sin telefono' }}
+                            </span>
+                        </div>
+                    </div>
+
+                    <dl class="detail-grid">
+                        <div>
+                            <dt>Direccion</dt>
+                            <dd>{{ row.direccion }}</dd>
+                        </div>
+                        <div>
+                            <dt>Telefono</dt>
+                            <dd class="phone-cell">
+                                <span>{{ row.telefono or "No disponible" }}</span>
+                                {% set phone = row.telefono|phone_digits %}
+                                {% if phone %}
+                                <span class="phone-actions">
+                                    <a class="icon-action whatsapp" href="https://wa.me/{{ phone }}" target="_blank" rel="noreferrer" title="Enviar WhatsApp">WhatsApp</a>
+                                    <a class="icon-action call" href="tel:{{ phone }}" title="Llamar">Llamar</a>
+                                </span>
+                                {% endif %}
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>Latitud</dt>
+                            <dd>{{ row.latitud }}</dd>
+                        </div>
+                        <div>
+                            <dt>Longitud</dt>
+                            <dd>{{ row.longitud }}</dd>
+                        </div>
+                    </dl>
+
+                    <div class="card-footer">
+                        <span>Extraido: {{ row.hora_extraccion }}</span>
+                        {% if row.url_actual %}
+                        <a href="{{ row.url_actual }}" target="_blank" rel="noreferrer">Ver en Maps</a>
+                        {% else %}
+                        <span>Sin enlace</span>
+                        {% endif %}
+                    </div>
+                </article>
+                {% else %}
+                <div class="empty-state">No hay resultados para mostrar.</div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</body>
+</html>

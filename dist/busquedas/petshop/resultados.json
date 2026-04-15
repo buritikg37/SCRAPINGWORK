@@ -1,0 +1,292 @@
+[
+    {
+        "nombre": "Petin Petshop",
+        "busqueda": "petshop",
+        "direccion": "Cl. 69 #27-105, Palermo, Manizales, Caldas",
+        "telefono": "321 7635885",
+        "latitud": "5.0572936",
+        "longitud": "-75.4881471",
+        "url_actual": "https://www.google.com/maps/place/Petin+Petshop/@5.0572936,-75.4881471,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47657f9819fc29:0x7b526e3770ee9c6d!8m2!3d5.0514914!4d-75.4898379!15sCgdwZXRzaG9wkgEJcGV0X3N0b3Jl4AEA!16s%2Fg%2F11ysl30lb2?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:23"
+    },
+    {
+        "nombre": "AnimALLS Petshop",
+        "busqueda": "petshop",
+        "direccion": "Cra. 28 #68 -06 Local 2, Palermo, Manizales, Caldas",
+        "telefono": "302 8418389",
+        "latitud": "5.0572936",
+        "longitud": "-75.4881471",
+        "url_actual": "https://www.google.com/maps/place/Petin+Petshop/@5.0572936,-75.4881471,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47657f9819fc29:0x7b526e3770ee9c6d!8m2!3d5.0514914!4d-75.4898379!15sCgdwZXRzaG9wkgEJcGV0X3N0b3Jl4AEA!16s%2Fg%2F11ysl30lb2?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:25"
+    },
+    {
+        "nombre": "Paraíso Animal",
+        "busqueda": "petshop",
+        "direccion": "Centro Comercial Sancancio, Calle 48 #39-33, Cra 27A #66 30, Manizales, Caldas",
+        "telefono": "315 2364226",
+        "latitud": "5.0514914",
+        "longitud": "-75.4988501",
+        "url_actual": "https://www.google.com/maps/place/AnimALLS+Petshop/@5.0514914,-75.4988501,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47659084450e81:0xe96c9bbdc00b389c!8m2!3d5.0524118!4d-75.4900348!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjE0YlZac2NHOU9ha0pSWlVjMU5HSXpRblZSVldNMFVtMXdWRlpHUlJBQuABAPoBBQjHARBC!16s%2Fg%2F11yffyxfmk?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:26"
+    },
+    {
+        "nombre": "Conejos Manizales",
+        "busqueda": "petshop",
+        "direccion": "Calle 65 No 31-85, Fatima, Cl. 65, Manizales, Caldas",
+        "telefono": "301 5427637",
+        "latitud": "5.0514914",
+        "longitud": "-75.4988501",
+        "url_actual": "https://www.google.com/maps/place/Para%C3%ADso+Animal/@5.0514914,-75.4988501,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47652adfefa749:0x92d9bb5330490beb!8m2!3d5.0536272!4d-75.4899138!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5LYlZCeVYxRlJFQUXgAQD6AQQIABAu!16s%2Fg%2F11jwn3jh7v?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:26"
+    },
+    {
+        "nombre": "Como Perros Y Gatos",
+        "busqueda": "petshop",
+        "direccion": "Av. Santander #68-15, San Rafael, Manizales, Caldas",
+        "telefono": "68864921",
+        "latitud": "5.0514914",
+        "longitud": "-75.4988501",
+        "url_actual": "https://www.google.com/maps/place/Conejos+Manizales/@5.0514914,-75.4988501,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476549579aa985:0x2b66ad0fbb2e9c3d!8m2!3d5.0540921!4d-75.4960791!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJhYWpsaGJtcFJSUkFC4AEA-gEECDkQSg!16s%2Fg%2F11q_5gxbz_?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:27"
+    },
+    {
+        "nombre": "Almati Veterinarios",
+        "busqueda": "petshop",
+        "direccion": "Cl. 68 #26a-23, Manizales, Caldas",
+        "telefono": "321 8166533",
+        "latitud": "5.0531438",
+        "longitud": "-75.4932376",
+        "url_actual": "https://www.google.com/maps/place/Como+Perros+Y+Gatos/@5.0531438,-75.4932376,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476579009b6689:0x86383e8e8ae54f91!8m2!3d5.0531438!4d-75.4842254!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJsZGt0eU1VNW5FQUXgAQD6AQQIABA5!16s%2Fg%2F11c2y5ghwc?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:30"
+    },
+    {
+        "nombre": "Manu Mascotas Pet Shop",
+        "busqueda": "petshop",
+        "direccion": "Cra. 35a #67A-10, Manizales, Caldas",
+        "telefono": " Enviar al teléfono",
+        "latitud": "5.0531438",
+        "longitud": "-75.4932376",
+        "url_actual": "https://www.google.com/maps/place/Almati+Veterinarios/@5.0531438,-75.4932376,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47650cf6d20e9b:0xacb7c01458c596cb!8m2!3d5.0521893!4d-75.4886073!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnN4ZUZRd1RrSlBSWE13VmxkMFRXVlhTbmRNVjNCRFpXNWtkMk5yUlJBQuABAPoBBAgAEEA!16s%2Fg%2F11szb9_drn?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:31"
+    },
+    {
+        "nombre": "Mister Mascotas",
+        "busqueda": "petshop",
+        "direccion": "Carrera 23 #56-25 Edificio El Carretero Local 3, Manizales, Caldas",
+        "telefono": "311 5993503",
+        "latitud": "5.0522057",
+        "longitud": "-75.4975442",
+        "url_actual": "https://www.google.com/maps/place/Manu+Mascotas+Pet+Shop/@5.0522057,-75.4975442,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476568a6c904d9:0x242f63de4cb3bcc7!8m2!3d5.050942!4d-75.499557!15sCgdwZXRzaG9w4AEA!16s%2Fg%2F11x7whjzvy?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:32"
+    },
+    {
+        "nombre": "PET SHOP, TIENDA DE MASCOTAS",
+        "busqueda": "petshop",
+        "direccion": "Cra 10A #57f-03, Carolina, Manizales, Caldas",
+        "telefono": "322 4367530",
+        "latitud": "5.050942",
+        "longitud": "-75.5085692",
+        "url_actual": "https://www.google.com/maps/place/Mister+Mascotas/@5.050942,-75.5085692,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f87e5c49415:0xcab2fefb32cf36cc!8m2!3d5.0618356!4d-75.4920928!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjA1V1ZWNlJuaGliV1JUVmtWR1ZsRlhNVk5pYm1SUVZWaE9hMk5IWXhBQuABAPoBBAh9EEA!16s%2Fg%2F11hcn9y21j?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:33"
+    },
+    {
+        "nombre": "PETS CLUB MANIZALES",
+        "busqueda": "petshop",
+        "direccion": "Centro Comercial Mall Plaza, Carrera 14, Av. Kevin Ángel ##55D – 251, Manizales, Caldas",
+        "telefono": "318 6742971",
+        "latitud": "5.061806",
+        "longitud": "-75.5011253",
+        "url_actual": "https://www.google.com/maps/place/PET+SHOP,+TIENDA+DE+MASCOTAS/@5.061806,-75.5011253,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476fca070486b3:0xf6d4560903c8184b!8m2!3d5.0657742!4d-75.4874701!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU14YVY5ZlJHUjNFQUXgAQD6AQQIABAc!16s%2Fg%2F11rl4bwr11?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:34"
+    },
+    {
+        "nombre": "Mascotienda huellitas de amor Pet shop",
+        "busqueda": "petshop",
+        "direccion": "Av. Santander #53-64, Manizales, Caldas",
+        "telefono": "324 3562900",
+        "latitud": "5.0657742",
+        "longitud": "-75.4964823",
+        "url_actual": "https://www.google.com/maps/place/PETS+CLUB+MANIZALES/@5.0657742,-75.4964823,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f2d4e8b9317:0x7d196209ea933f75!8m2!3d5.0656021!4d-75.4898061!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF5ZUV4bFJsZDNFQUXgAQD6AQQIABBK!16s%2Fg%2F11q1h9f3sv?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:36"
+    },
+    {
+        "nombre": "Tienda de la Mascota",
+        "busqueda": "petshop",
+        "direccion": "Cristo Rey, Cra. 24b #45-36, Manizales, Caldas",
+        "telefono": "313 6644654",
+        "latitud": "5.0657742",
+        "longitud": "-75.4964823",
+        "url_actual": "https://www.google.com/maps/place/Mascotienda+huellitas+de+amor+Pet+shop/@5.0657742,-75.4964823,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476fa3649aadad:0xcdb8ccfe2865c7d5!8m2!3d5.0629418!4d-75.4955027!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YkhOaVkzWlJSUkFC4AEA-gEECAAQRA!16s%2Fg%2F11p64z7d_w?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:37"
+    },
+    {
+        "nombre": "Tienda Animal Manizales",
+        "busqueda": "petshop",
+        "direccion": "Av. Santander #52-31 local 5, Manizales, Caldas",
+        "telefono": "317 3247971",
+        "latitud": "5.0657742",
+        "longitud": "-75.4964823",
+        "url_actual": "https://www.google.com/maps/place/Tienda+de+la+Mascota/@5.0657742,-75.4964823,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f8b17477ba3:0x53df732f2521bb3a!8m2!3d5.0643528!4d-75.5025253!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWS2JrZzVOak5rTlc5WVozaDNSUkFC4AEA-gEECAAQOg!16s%2Fg%2F11c5xtmxf0?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:38"
+    },
+    {
+        "nombre": "Mia's Pet shop",
+        "busqueda": "petshop",
+        "direccion": "Barrio malabar, 67 E 15, Cra. 42, Manizales, Caldas",
+        "telefono": "312 2165679",
+        "latitud": "5.0657742",
+        "longitud": "-75.4964823",
+        "url_actual": "https://www.google.com/maps/place/Tienda+Animal+Manizales/@5.0657742,-75.4964823,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f89048fe903:0x733e83a06ba03adb!8m2!3d5.0637806!4d-75.4959309!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aASNDaFpEU1VoTk1HOW5TMFZKUTBGblRVUjNhM0F5U1dSbkVBReABAPoBBAgAECo!16s%2Fg%2F11c1t5xwdg?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:39"
+    },
+    {
+        "nombre": "Animal Store Manizales",
+        "busqueda": "petshop",
+        "direccion": "Cra. 19 #73-03, Manizales, Caldas",
+        "telefono": "310 3981142",
+        "latitud": "5.0454223",
+        "longitud": "-75.5121755",
+        "url_actual": "https://www.google.com/maps/place/Firulais+Pet+Shop/@5.0454223,-75.5121755,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476578e8bb38a3:0x53773e0245f328dd!8m2!3d5.0541014!4d-75.4832135!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQlwZXRfc3RvcmXgAQA!16s%2Fg%2F11yc805dlm?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:43"
+    },
+    {
+        "nombre": "BC PETS | Accesorios de lujo para mascotas | Ventas B2B - B2C | Envíos a toda Colombia |",
+        "busqueda": "petshop",
+        "direccion": "Cra. 17a #71a-90, Colseguros, Manizales, Caldas",
+        "telefono": "320 6924988",
+        "latitud": "5.0538284",
+        "longitud": "-75.4928533",
+        "url_actual": "https://www.google.com/maps/place/Animal+Store+Manizales/@5.0538284,-75.4928533,15.97z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476582cd9971db:0xd3a7f37bf29bf25d!8m2!3d5.0513828!4d-75.4796335!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0bmQxWlVUalZUVm1oMFlXNUNSVlpZUW1wT01GcElaVWN4U2xnell4QULgAQD6AQQIABAO!16s%2Fg%2F11c60p28hz?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:44"
+    },
+    {
+        "nombre": "DELUXE PETS - Peluquería Canina y Felina - Manizales",
+        "busqueda": "petshop",
+        "direccion": "ROBLES DE BELLA SUIZA, Cra. 19 #64 A 194 LOCAL 3, Manizales, Caldas",
+        "telefono": "324 2520105",
+        "latitud": "5.0513828",
+        "longitud": "-75.4886457",
+        "url_actual": "https://www.google.com/maps/place/Maxi+Mascotas/@5.0513828,-75.4886457,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f8b6f177053:0x5f18cc6625399ace!8m2!3d5.0655497!4d-75.5024663!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQlwZXRfc3RvcmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjRaMlZZWTIxUlJSQULgAQD6AQQIABAl!16s%2Fg%2F11c5_5xgf4?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:46"
+    },
+    {
+        "nombre": "Tienda para mascotas Mi Mejor Amigo",
+        "busqueda": "petshop",
+        "direccion": "ROBLES DE BELLA SUIZA, Cra. 19 #64 A 194 LOCAL 3, Manizales, Caldas",
+        "telefono": "324 2520105",
+        "latitud": "5.0655497",
+        "longitud": "-75.5114785",
+        "url_actual": "https://www.google.com/maps/place/DELUXE+PETS+-+Peluquer%C3%ADa+Canina+y+Felina+-+Manizales/@5.0655497,-75.5114785,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e4765dd4942cc4f:0x2d08f1263be033f7!8m2!3d5.0574916!4d-75.4825998!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQtwZXRfZ3Jvb21lcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMDFObGxXYkd4V01HeE1ZVmMxU0ZwVVJrTk9ibVJYWWtoUk5GVlZSUkFC4AEA-gEECAAQRg!16s%2Fg%2F11v0n4l70n?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:47"
+    },
+    {
+        "nombre": "TIENDA AGATHA MASCOTAS",
+        "busqueda": "petshop",
+        "direccion": "Villa café-La Carola, número 57d1-65, Cra. 8, Manizales, Caldas",
+        "telefono": "301 5291949",
+        "latitud": "5.043111",
+        "longitud": "-75.5084857",
+        "url_actual": "https://www.google.com/maps/place/Tienda+para+mascotas+Mi+Mejor+Amigo/@5.043111,-75.5084857,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47657f0b0a7605:0x215dd5d31b72b175!8m2!3d5.043111!4d-75.4994735!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5hTm5KeFNGWm5FQUXgAQD6AQQIABBD!16s%2Fg%2F11fhl_jc2_?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:50"
+    },
+    {
+        "nombre": "KOKETOS PET SHOP",
+        "busqueda": "petshop",
+        "direccion": "Cra. 22 #46A-54, Manizales, Caldas",
+        "telefono": "320 6053839",
+        "latitud": "5.0658638",
+        "longitud": "-75.5100888",
+        "url_actual": "https://www.google.com/maps/place/PETTYTE+SHOP+MASCOTIENDA+-+Concentrados+Manizales+-+Valoraci%C3%B3n+y+Consulta+Veterinaria+-+Accesorios+para+Mascotas/@5.0658638,-75.5100888,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476fff657cd885:0xa59280812e49e2b5!8m2!3d5.0658638!4d-75.5010766!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQpmZWVkX3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1V2FVNUZjRWhTVjJoV1ZtcG9XV05IY0doVmVrb3dUV3haZUdReFJSQULgAQD6AQQIABA1!16s%2Fg%2F11v0lrb6xk?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:55"
+    },
+    {
+        "nombre": "Mascofarma",
+        "busqueda": "petshop",
+        "direccion": "Cra. 3 #1466, Villamaría, Caldas",
+        "telefono": "312 7628780",
+        "latitud": "5.0429246",
+        "longitud": "-75.5170777",
+        "url_actual": "https://www.google.com/maps/place/KOKETOS+PET+SHOP/@5.0429246,-75.5170777,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476540e5385ddb:0x7e88348642122817!8m2!3d5.0429246!4d-75.5080655!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11bxd_0k82?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:57"
+    },
+    {
+        "nombre": "Tienda Para Mascotas Mi Fiel Amigo",
+        "busqueda": "petshop",
+        "direccion": "Cra. 22 #46A-54, Manizales, Caldas",
+        "telefono": "313 5609221",
+        "latitud": "5.0673446",
+        "longitud": "-75.5078034",
+        "url_actual": "https://www.google.com/maps/place/Mascofarma/@5.0673446,-75.5078034,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f8dd343cb77:0x810256f6f32c3b57!8m2!3d5.0673446!4d-75.4987912!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJXZFhKUVpXSm5FQUXgAQD6AQQIABAo!16s%2Fg%2F11swdw1y1f?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:58"
+    },
+    {
+        "nombre": "Centro Veterinario Mr Cat",
+        "busqueda": "petshop",
+        "direccion": "Cl. 55 #23-33, Manizales, Caldas",
+        "telefono": "311 3222538",
+        "latitud": "5.0673446",
+        "longitud": "-75.5078034",
+        "url_actual": "https://www.google.com/maps/place/Tienda+Para+Mascotas+Mi+Fiel+Amigo/@5.0673446,-75.5078034,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f2f10cc728b:0x37528be8dca93a16!8m2!3d5.0658638!4d-75.5010766!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11qqjg8sp6?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:45:59"
+    },
+    {
+        "nombre": "Mascotik's CV",
+        "busqueda": "petshop",
+        "direccion": "Cl. 55 #23-33, Manizales, Caldas",
+        "telefono": "311 3222538",
+        "latitud": "5.0673446",
+        "longitud": "-75.5078034",
+        "url_actual": "https://www.google.com/maps/place/Centro+Veterinario+Mr+Cat/@5.0673446,-75.5078034,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f3abd397cdb:0xf4570638dbcf3572!8m2!3d5.0618203!4d-75.4938387!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnRHZFdGck9IZFRSVVpxVFZob01rMUhTbGRVU0hCcVZVYzVXVlpWUlJBQuABAPoBBAgAEEY!16s%2Fg%2F11vqv4_0pb?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:01"
+    },
+    {
+        "nombre": "Almacén solo campo",
+        "busqueda": "petshop",
+        "direccion": "Manizales, Caldas",
+        "telefono": "310 4649119",
+        "latitud": "5.060059",
+        "longitud": "-75.5101872",
+        "url_actual": "https://www.google.com/maps/place/Vida+Animal+Cl%C3%ADnica+Veterinaria/@5.060059,-75.5101872,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e4765601893d96f:0x1cf6e2afbaa51b3f!8m2!3d5.060059!4d-75.501175!15sCgdwZXRzaG9wWgkiB3BldHNob3CSAQx2ZXRlcmluYXJpYW6aASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTmxlVFpUWWxkQkVBReABAPoBBQjiARAz!16s%2Fg%2F11c5821px0?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:07"
+    },
+    {
+        "nombre": "TAFFY'S PET MARKET - Spa Canino y Felino - Tienda de Mascotas - Accesorios y Productos Aseo para Mascotas - Despacho Nacional",
+        "busqueda": "petshop",
+        "direccion": "Cl. 10 #3-15, Villamaría, Caldas",
+        "telefono": "320 3890070",
+        "latitud": "5.0455358",
+        "longitud": "-75.519842",
+        "url_actual": "https://www.google.com/maps/place/Almac%C3%A9n+solo+campo/@5.0455358,-75.519842,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47652838367811:0xd3c8426e80ba2a45!8m2!3d5.0455358!4d-75.5108298!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11n0d34jg_?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:10"
+    },
+    {
+        "nombre": "Donde El Gato Pet shop",
+        "busqueda": "petshop",
+        "direccion": "Cl. 10 #3-15, Villamaría, Caldas",
+        "telefono": "320 3890070",
+        "latitud": "5.0455358",
+        "longitud": "-75.519842",
+        "url_actual": "https://www.google.com/maps/place/Almac%C3%A9n+solo+campo/@5.0455358,-75.519842,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e47652838367811:0xd3c8426e80ba2a45!8m2!3d5.0455358!4d-75.5108298!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11n0d34jg_?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:13"
+    },
+    {
+        "nombre": "Tienda de Mascotas Villamaria",
+        "busqueda": "petshop",
+        "direccion": "Cra. 17 B #48D 27, Manizales, Caldas",
+        "telefono": "321 8165123",
+        "latitud": "5.0683539",
+        "longitud": "-75.5064693",
+        "url_actual": "https://www.google.com/maps/place/Donde+El+Gato+Pet+shop/@5.0683539,-75.5064693,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476f092b536b0b:0x2a74aae880214cc1!8m2!3d5.0683539!4d-75.4974571!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11rz1ctmm9?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:15"
+    },
+    {
+        "nombre": "Veterinaria Amigo Fiel",
+        "busqueda": "petshop",
+        "direccion": "Av. Santander #4100, Manizales, Caldas",
+        "telefono": "322 9092369",
+        "latitud": "5.0658341",
+        "longitud": "-75.5140524",
+        "url_actual": "https://www.google.com/maps/place/Ternuras+Mascotienda+Pet+Shop/@5.0658341,-75.5140524,16z/data=!4m11!1m3!2m2!1spetshop!6e6!3m6!1s0x8e476ff4af3e01bb:0x175f4a29cef3d785!8m2!3d5.0658341!4d-75.5050402!15sCgdwZXRzaG9wWgkiB3BldHNob3CSARBwZXRfc3VwcGx5X3N0b3Jl4AEA!16s%2Fg%2F11t28bwxbr?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D",
+        "hora_extraccion": "2026-04-14 10:46:21"
+    }
+]

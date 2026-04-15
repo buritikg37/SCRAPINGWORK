@@ -1,0 +1,37 @@
+# ============================================================================
+# DEPENDENCIAS DEL PROYECTO - SCRAPER DE PETSHOPS
+# ============================================================================
+# Instalar todas las dependencias ejecutando:
+# pip install -r requirements.txt
+# ============================================================================
+
+# Automatización del navegador
+selenium==4.15.2
+
+# Descarga automática de ChromeDriver
+webdriver-manager==4.0.1
+
+# Análisis y manipulación de datos
+pandas==2.1.4
+
+# Peticiones HTTP
+requests==2.31.0
+
+# Parsing de HTML
+beautifulsoup4==4.12.2
+
+# Aplicacion web local
+Flask==3.0.3
+waitress==3.0.0
+
+# Utilidades adicionales
+lxml==4.9.3
+python-dateutil==2.8.2
+openpyxl==3.1.5
+
+# ============================================================================
+# NOTAS:
+# - Asegúrate de tener Python 3.8 o superior
+# - Requiere Google Chrome instalado en tu sistema
+# - Compatible con Windows, macOS y Linux
+# ============================================================================

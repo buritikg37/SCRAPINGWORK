@@ -1,0 +1,7 @@
+.venv/
+.wdm/
+__pycache__/
+*.pyc
+scraper_log.txt
+petshops_resultados.csv
+petshops_resultados.json
