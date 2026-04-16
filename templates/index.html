@@ -20,13 +20,19 @@
                 <p class="eyebrow">ScrapingWork Dashboard</p>
                 <h1>{{ active_search|title }} encontrados en Google Maps</h1>
                 <p class="hero-text">Un panel mas claro para revisar resultados, detectar datos faltantes y exportar el listado a Excel sin salir del navegador.</p>
+                <p class="hero-city">Ciudad activa: {{ active_city }}</p>
                 <form method="post" action="{{ url_for('scrape') }}" class="extract-form">
                     <label for="search_term" class="extract-label">Nueva extraccion</label>
                     <div class="extract-row">
                         <input id="search_term" name="search_term" type="search" value="{{ active_search }}" placeholder="Escribe una categoria: petshop, veterinaria, farmacia, restaurante">
+                        <select id="city" name="city" class="extract-select">
+                            {% for city in cities %}
+                            <option value="{{ city }}" {% if city == active_city %}selected{% endif %}>{{ city }}</option>
+                            {% endfor %}
+                        </select>
                         <button type="submit" class="extract-button">Extraer ahora</button>
                     </div>
-                    <small>Usa cualquier categoria de Google Maps y se guardara el nuevo resultado en este panel.</small>
+                    <small>Selecciona la ciudad y la categoria deseada. El scraper buscara ambas juntas en Google Maps.</small>
                 </form>
                 <div class="hero-badges">
                     <a href="#busqueda-local">Busqueda local</a>

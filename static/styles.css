@@ -119,6 +119,12 @@ h1 {
     margin-top: 18px;
 }
 
+.hero-city {
+    margin: 12px 0 0;
+    color: var(--accent);
+    font-weight: 700;
+}
+
 .extract-form {
     margin-top: 22px;
     padding: 18px;
@@ -143,7 +149,8 @@ h1 {
     align-items: center;
 }
 
-.extract-row input {
+.extract-row input,
+.extract-select {
     flex: 1;
     min-width: 180px;
     padding: 16px 18px;
@@ -151,6 +158,11 @@ h1 {
     border: 1px solid var(--line);
     background: rgba(255, 255, 255, 0.92);
     font: inherit;
+}
+
+.extract-select {
+    appearance: none;
+    cursor: pointer;
 }
 
 .extract-button {

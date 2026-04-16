@@ -52,8 +52,7 @@ import random
 # ============================================================================
 
 DEFAULT_SEARCH_TERM = "petshop"
-MAPS_COORDS = "@5.0572936,-75.4881471,16z"
-MAPS_SUFFIX = "data=!4m2!2m1!6e6?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
+DEFAULT_CITY = "Manizales, Caldas"
 
 if getattr(sys, "frozen", False):
     BASE_DIR = Path(sys.executable).resolve().parent
@@ -85,13 +84,19 @@ SIMBOLOS_LOG = {
 }
 
 
-def construir_url_maps(termino_busqueda):
-    termino = quote((termino_busqueda or DEFAULT_SEARCH_TERM).strip())
-    return f"https://www.google.com/maps/search/{termino}/{MAPS_COORDS}/{MAPS_SUFFIX}"
+def construir_url_maps(termino_busqueda, ciudad=DEFAULT_CITY):
+    partes = [(termino_busqueda or DEFAULT_SEARCH_TERM).strip()]
+    if ciudad and ciudad.strip():
+        partes.append(ciudad.strip())
+    consulta = quote(" ".join(partes))
+    return f"https://www.google.com/maps/search/{consulta}?entry=ttu"
 
 
-def normalizar_nombre_busqueda(termino_busqueda):
-    texto = (termino_busqueda or DEFAULT_SEARCH_TERM).strip().lower()
+def normalizar_nombre_busqueda(termino_busqueda, ciudad=DEFAULT_CITY):
+    base = (termino_busqueda or DEFAULT_SEARCH_TERM).strip()
+    if ciudad and ciudad.strip():
+        base = f"{base} {ciudad.strip()}"
+    texto = base.lower()
     texto = re.sub(r"[^\w\s-]", "", texto, flags=re.UNICODE)
     texto = re.sub(r"[-\s]+", "_", texto, flags=re.UNICODE).strip("_")
     return texto or DEFAULT_SEARCH_TERM
@@ -114,19 +119,21 @@ class ScraperPetshops:
     - cerrar_driver: Cierra el navegador
     """
     
-    def __init__(self, termino_busqueda=DEFAULT_SEARCH_TERM):
+    def __init__(self, termino_busqueda=DEFAULT_SEARCH_TERM, ciudad=DEFAULT_CITY):
         """Inicializa el scraper con variables vacías"""
         self.driver = None
         self.petshops = []
         self.termino_busqueda = (termino_busqueda or DEFAULT_SEARCH_TERM).strip()
-        self.slug_busqueda = normalizar_nombre_busqueda(self.termino_busqueda)
-        self.url_maps = construir_url_maps(self.termino_busqueda)
+        self.ciudad = (ciudad or DEFAULT_CITY).strip()
+        self.slug_busqueda = normalizar_nombre_busqueda(self.termino_busqueda, self.ciudad)
+        self.url_maps = construir_url_maps(self.termino_busqueda, self.ciudad)
         self.directorio_busqueda = DIRECTORIO_BUSQUEDAS / self.slug_busqueda
         self.archivo_json_busqueda = self.directorio_busqueda / "resultados.json"
         self.archivo_csv_busqueda = self.directorio_busqueda / "resultados.csv"
         self.marca_tiempo = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         self.registrar_log(f"[INICIO] Scraper iniciado a las {self.marca_tiempo}")
         self.registrar_log(f"[BUSQUEDA] Termino: {self.termino_busqueda}")
+        self.registrar_log(f"[CIUDAD] Ciudad: {self.ciudad}")
     
     def registrar_log(self, mensaje):
         """
@@ -440,6 +447,7 @@ class ScraperPetshops:
             info = {
                 "nombre": nombre,
                 "busqueda": self.termino_busqueda,
+                "ciudad": self.ciudad,
                 "direccion": "No disponible",
                 "telefono": "No disponible",
                 "latitud": "No disponible",

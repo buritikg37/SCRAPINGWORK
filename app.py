@@ -10,7 +10,7 @@ from typing import Any
 import pandas as pd
 from flask import Flask, redirect, render_template, request, send_file, url_for
 
-from PetshopRed import DEFAULT_SEARCH_TERM, ScraperPetshops
+from PetshopRed import DEFAULT_CITY, DEFAULT_SEARCH_TERM, ScraperPetshops
 
 if getattr(sys, "frozen", False):
     BASE_DIR = Path(sys.executable).resolve().parent
@@ -27,6 +27,19 @@ app = Flask(
     template_folder=str(RESOURCE_DIR / "templates"),
     static_folder=str(RESOURCE_DIR / "static"),
 )
+
+CITIES = [
+    "Manizales, Caldas",
+    "Bogota, Colombia",
+    "Medellin, Antioquia",
+    "Cali, Valle del Cauca",
+    "Barranquilla, Atlantico",
+    "Cartagena, Bolivar",
+    "Bucaramanga, Santander",
+    "Pereira, Risaralda",
+    "Armenia, Quindio",
+    "Ibague, Tolima",
+]
 
 
 def _repair_text(value: Any) -> Any:
@@ -78,6 +91,12 @@ def dataset_search_term(results: list[dict[str, Any]]) -> str:
     return str(results[0].get("busqueda") or DEFAULT_SEARCH_TERM)
 
 
+def dataset_city(results: list[dict[str, Any]]) -> str:
+    if not results:
+        return DEFAULT_CITY
+    return str(results[0].get("ciudad") or DEFAULT_CITY)
+
+
 def filter_results(results: list[dict[str, Any]], query: str) -> list[dict[str, Any]]:
     if not query:
         return results
@@ -98,6 +117,7 @@ def index():
     results = load_results()
     filtered = filter_results(results, query)
     active_search = dataset_search_term(results)
+    active_city = dataset_city(results)
 
     stats = {
         "total": len(results),
@@ -118,6 +138,8 @@ def index():
         results=filtered,
         query=query,
         active_search=active_search,
+        active_city=active_city,
+        cities=CITIES,
         status=status,
         stats=stats,
         last_updated=last_updated,
@@ -127,10 +149,11 @@ def index():
 @app.route("/scrape", methods=["POST"])
 def scrape():
     search_term = request.form.get("search_term", "").strip() or DEFAULT_SEARCH_TERM
+    city = request.form.get("city", "").strip() or DEFAULT_CITY
     try:
-        scraper = ScraperPetshops(search_term)
+        scraper = ScraperPetshops(search_term, city)
         scraper.ejecutar()
-        return redirect(url_for("index", status=f"Extraccion completada para: {search_term}"))
+        return redirect(url_for("index", status=f"Extraccion completada para: {search_term} en {city}"))
     except Exception as exc:
         return redirect(url_for("index", status=f"Error en la extraccion: {exc}"))
 
